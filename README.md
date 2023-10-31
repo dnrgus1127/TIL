@@ -16,5 +16,6 @@ Today I Learned
 - Deep Dive
 
 
-[30일]
+[30일](https://github.com/dnrgus1127/TIL/tree/main/days/2023/10)
+- ColorGenerator
 
