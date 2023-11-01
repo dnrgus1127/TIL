@@ -150,3 +150,62 @@ interface Dictionary {
 ```
 
 ## 클래스 타입
+
+### 인터페이스 구현
+
+Java나 C#에서 클래스에 사용하는 인터페이스를 타입스크립트에서도 사용할 수 있다.
+
+```ts
+interface Animal {
+   name: string;
+}
+
+class Dog implements Animal {
+  name : "Bart",
+  constructor () {}
+}
+```
+
+### 클래스의 스태틱과 인스턴스의 차이점
+
+클래스가 인터페이스를 implements 할 때, 인터페이스는 클래스의 인스턴스만 검사하기 때문에 생성자, 정적 메소드 같은 스태틱 프로퍼티들은 검사에 포함되지 않는다.
+
+```ts
+interface ClockConstructor {
+  new (hour: number, minute: number);
+}
+
+interface ClockInterface {
+  tick();
+}
+
+const Clock: ClockConstructor = class Clock implements ClockInterface {
+  constructor(h: number, m: number) {}
+  tick() {
+    console.log("beep beep");
+  }
+};
+```
+
+> 이 파트는 정확히 이해하지 못했음.
+
+## 인터페이스 확장하기
+
+클래스처럼, 인터페이스도 `extends` 키워드를 이용해 확장할 수 있다.
+
+```ts
+interface Shape {
+  color: string;
+}
+
+interface Square extends Shape {
+  sideLength: number;
+}
+
+// 타입 선언
+let square = {} as Square
+square.color = "blue";
+square.sideLength = 10;
+```
+
+extends는 하나의 인터페이스뿐만 아니라 여러 인터페이스를 확장(상속?) 할 수 있다.
