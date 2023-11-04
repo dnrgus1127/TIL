@@ -17,3 +17,5 @@ Today I Learned
 # 정리해보고 싶은 내용
 - ContextAPI와 Redux의 차이와 상황에 맞는 사용.
 - 
+## reference 
+- [Context-rdeux 비교글](https://olaf-go.medium.com/context-api-vs-redux-e8a53df99b8)
