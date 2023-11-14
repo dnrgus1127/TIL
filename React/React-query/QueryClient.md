@@ -1,3 +1,5 @@
+[TanstackQuery v4 - QueryClient](https://tanstack.com/query/v4/docs/react/reference/QueryClient#queryclientfetchquery)
+
 # QueryClient 
 리액트 쿼리의 queryClient를 사용하여 캐시와 상호 작용을 할 수있다.
 
