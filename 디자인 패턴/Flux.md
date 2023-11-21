@@ -6,13 +6,11 @@
 
 > Flux 패턴이 뭐지?
 
-![image](https://github.com/dnrgus1127/TIL/assets/65962363/c3d75171-194a-46f9-9645-86d15a6b9865)
 
 ---
 
 ## Flux 패턴
 
-![image](https://github.com/dnrgus1127/TIL/assets/65962363/b38a1043-ed38-42bf-a443-e8d9a9e8bde5)
 
 Flux 패턴은 페이스북에서 MVC(모델,컨트롤,뷰) 모델의 단점을 보완하기 위해서 만든 아키텍처다.
 
@@ -21,9 +19,13 @@ Flux 패턴은 페이스북에서 MVC(모델,컨트롤,뷰) 모델의 단점을 
 
 MVC 디자인 패턴으로 개발한 경험이 없어서 단점에 대해 정확히 알고 있지는 못하지만,
 MVC모델은 View가 동시에 여러 Model을 업데이트하고, Model 또한 동시에 여러 View를 업데이트 할 수 있는데, 이런 방식이 서비스가 확장될 수록 데이터의 흐름을 예측 불가능하게 만들었다.
+![image](https://github.com/dnrgus1127/TIL/assets/65962363/c3d75171-194a-46f9-9645-86d15a6b9865)
+
 
 ### 그럼 데이터를 단방향으로만 전달되게 한다면 데이터의 흐름을 예측할 수 있지 않을까?
 그래서 나온 것이 단방향 데이터 흐름을 가지는 Flux 패턴이다.
+
+![image](https://github.com/dnrgus1127/TIL/assets/65962363/b38a1043-ed38-42bf-a443-e8d9a9e8bde5)
 
 
 ## 아키텍처 구조
