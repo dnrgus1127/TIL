@@ -30,6 +30,8 @@
 
 > **img 태그**는 검색 엔진이 HTML을 파싱할 때 태그 이름만으로 이미지라는 정보를 얻을 수 있지만, **background-image**는 스타일 속성이기 때문에 검색엔진이 인식할 수 없다.
 
+![image](https://github.com/dnrgus1127/TIL/assets/65962363/7366b060-395f-426d-bd6c-56ca4bfa233f)
+
 
 
 ### background-image가 유리한 사례
