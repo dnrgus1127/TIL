@@ -4,7 +4,7 @@
 
 ![image](https://github.com/dnrgus1127/TIL/assets/65962363/8c060551-bd2e-47d9-a7af-74075870a9dd)
 
-## 브라우저의 주소창에 "https://www.naver.com"을 입력하면 발생하는 일
+## 브라우저의 주소창에 URI을 입력하면 발생하는 일
 브라우저 창에 URI를 입력하고 엔터를 누르면 브라우저는 서버에 해당 URL에 대한 요청이 전송된다.
 루트 경로에 요청을 받은 서버는 암묵적으로 index.html을 응답한다. (path가 지정되어 있다면 다른 파일)
 
