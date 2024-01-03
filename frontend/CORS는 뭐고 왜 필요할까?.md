@@ -32,6 +32,8 @@ CORS : 교차 출처 리소스 공유
 
 그렇다면 보안을 위해서 요청을 포기하고 서비스 개발을 중단해야 할까?
 
+---
+
 # Cross-origin Resource sharing : CORS
 
 CORS가 바로 위의 동일 출처 정책을 피해서 다른 출처 사이의 자원을 공유할 수 있게 만들어주는 매커니즘이다.
@@ -58,6 +60,7 @@ Access-Control-Allow-Origin: https://woogihyun.com (A)
 // 모든 도메인에서 접근할 수 있도록 허용할 경우
 Access-Control-Allow-Origin: *
 ```
+---
 
 ## Simple request와 Preflight request
 
